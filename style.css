@@ -27,6 +27,8 @@
 }
 
 img {
+    height: 30vh;
+    width: 80vw;
     border-radius: 8%;
 }
 
