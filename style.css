@@ -1,0 +1,39 @@
+
+.container {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw; /* Make sure the container takes the full viewport width */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    height: 70vh;
+    width: 70vw; 
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px ;
+    box-shadow: 7px 7px black;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+img {
+    border-radius: 8%;
+}
+
+.text-learning {
+    background-color: hsl(47, 88%, 63%);
+    margin: 15px;
+    width: fit-content;
+    text-align: left;
+    border-radius: 5%;
+}
