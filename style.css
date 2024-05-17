@@ -1,17 +1,26 @@
 
-.container {
+body {
     background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100vw; /* Make sure the container takes the full viewport width */
-    display: flex; /* Enable flexbox layout */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    height: 70vh;
-    width: 70vw; 
+    height: auto;
+    width: 80vw; 
     border-radius: 5%;
     border-style: solid;
     border-width: 1px;
@@ -21,21 +30,68 @@
     flex-direction: column;
     justify-content: center; /* Center horizontally */
     align-items: center; 
-    text-align: center;
-    padding: 10px 0px 10px 0px;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
     
 }
 
-img {
-    height: 30vh;
-    width: 80vw;
+.card-image {
+    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-height: 40%;
     border-radius: 8%;
 }
 
-.text-learning {
+.tag {
     background-color: hsl(47, 88%, 63%);
-    margin: 15px;
     width: fit-content;
-    text-align: left;
-    border-radius: 5%;
+    font-weight: 800;
+    border-radius: 8%;
+    margin:20px 0px 0px 0px;
+    padding: 10px ;
 }
+
+.published-date {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.card-description {
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 30%;
+
+    }
+
+}
+
+
+
