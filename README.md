@@ -1,4 +1,4 @@
-This is a solution to the Blog preview card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+##This is a solution to the Blog preview card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ##Table of contents
 Overview
@@ -21,7 +21,7 @@ See hover and focus states for all interactive elements on the page
 ##Screenshot
 Blog Preview Card Solution
 
-
+[desktop-output](https:\\github.com\Uchyy\blog-preview-card-main\assets\images\desktop-output.png)
 
 ##Links
 Solution URL: Add solution URL here
